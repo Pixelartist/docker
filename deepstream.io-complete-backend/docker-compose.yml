@@ -13,7 +13,7 @@ services:
             - rethinkdb
     deepstream-search-provider:
         # build: "../deepstream.io-provider-search-rethinkdb/1.1.1"
-        image: deepstreamio/deepstream.io-provider-search-rethinkdb
+        image: deepstreamio/provider-search-rethinkdb
         environment:
             - DEEPSTREAM_HOST=deepstream
             - DEEPSTREAM_PORT=6021
